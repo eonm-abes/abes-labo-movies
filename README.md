@@ -11,10 +11,10 @@ Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'
 - L'URL du sparql de virtuoso : http://127.0.0.1:8890/sparql/
 - L'URL du backoffice : http://127.0.0.1:8890/
 
-L'image docker utilisée est la suivante : https://hub.docker.com/r/openlink/virtuoso-opensource-7
+L'image docker utilisée est : [OpenLink Virtuoso Open Source Edition 7](https://hub.docker.com/r/openlink/virtuoso-opensource-7)
 
-- Les paramètres sont réglés principalement dans le fichier `virtuoso.ini` : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini
-- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés ici : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini#L110-L114
+- Les paramètres sont réglés principalement dans le fichier [`virtuoso.ini`](https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini)
+- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés dans le fichier [`virtuoso.ini`](https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini#L110-L114)
 
 Remarque : une fois un paramètre modifié, il est nécessaire de relancer le conteneur docker pour que le paramètre soit pris en compte.
 
